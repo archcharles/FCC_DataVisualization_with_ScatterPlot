@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+  font-family: 'Source Sans Pro', sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(78, 78, 78);
+}
+
+svg{
+  background-color: rgb(212, 210, 208);
+  box-shadow: 2px 2px 20px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.bar{
+  background-color: #2B7A78;
+  border-color: #2B7A78;
+  fill: #2B7A78;
+}
+
+#title{
+  font-size: 30px;
+  fill: #17252A;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 10px;
+  font: 12px sans-serif;
+  color: whitesmoke;
+  background: rgb(49, 48, 48);
+  border: 1px;
+  border-radius: 5px;
+}
+
+.dot {
+  stroke: black;   /* stroke is similar to border-color */
+  opacity: 0.75;
+}
+
+
+
